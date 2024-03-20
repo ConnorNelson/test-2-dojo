@@ -1,0 +1,9 @@
+#!/opt/pwn.college/python
+
+flag = open("/flag").read()
+answer = input("Where is Connor presenting?")
+if answer == "SIGCSE2024":
+    print(f"Correct! Here is your flag: {flag}")
+else:
+    print("Wrong!")
+    

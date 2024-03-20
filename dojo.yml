@@ -1,0 +1,5 @@
+id: demo
+modules:
+  - id: example
+    challenges:
+      - id: first
